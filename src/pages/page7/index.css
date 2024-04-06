@@ -23,6 +23,9 @@
     height: 10rem;
     width: 12rem;
 }
+.box-cont {
+    margin-left: 4rem;
+}
 @media screen and (max-width: 768px) {
     .square {
         display: flex;
