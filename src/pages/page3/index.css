@@ -1,0 +1,43 @@
+.page3 {
+    margin: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+.pg2-cont {
+    display: flex;
+    flex-direction: row;
+}
+.pulley {
+    height: 25rem;
+    width: 25rem;
+}
+.right2 {
+    margin: 5rem;
+}
+@media screen and (max-width: 768px){
+    .pg2-cont {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .left2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .right2 {
+        margin: 0;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .page3 {
+        margin: 0;
+    }
+    .pulley {
+        height: 16rem;
+        width: 16rem;
+    }
+}

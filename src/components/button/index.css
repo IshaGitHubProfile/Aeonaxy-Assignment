@@ -1,0 +1,16 @@
+.btn {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+.btn-cont {
+    display: flex;
+    justify-content: center;
+}
